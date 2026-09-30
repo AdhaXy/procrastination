@@ -4,5 +4,6 @@
 // scripts.
 
 // start code here
-import function ShowDialogue(String text);
-import function HideDialogue();
+import function ShowDialogue(Object* speaker, String text, int speakerSprite);
+import function HideDialogue(Object* speaker);
+import function ShowNarration(Object* speaker, String text);

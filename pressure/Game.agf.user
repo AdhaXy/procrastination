@@ -21,7 +21,7 @@
   </Component>
   <WorkspaceState>
     <LastBuildConfiguration>Debug</LastBuildConfiguration>
-    <LastBuildGameFileName>_Debug=pressure,</LastBuildGameFileName>
+    <LastBuildGameFileName>_Debug=pressure,DataFile=pressure,Windows=pressure,</LastBuildGameFileName>
     <RequiresRebuild>False</RequiresRebuild>
   </WorkspaceState>
 </AGSEditorUserData>
