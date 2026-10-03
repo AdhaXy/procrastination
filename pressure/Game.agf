@@ -687,43 +687,109 @@
         <GUIs>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>3</BackgroundImage>
-              <BorderColor>2</BorderColor>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>0</BorderColor>
               <Clickable>True</Clickable>
-              <Height>162</Height>
+              <Height>1080</Height>
               <ID>0</ID>
-              <Left>320</Left>
-              <Name>gDialogueD</Name>
+              <Left>480</Left>
+              <Name>gChoices</Name>
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
               <ScriptModule>GlobalScript.asc</ScriptModule>
-              <Top>500</Top>
+              <Top>0</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
-              <Width>816</Width>
+              <Width>920</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
-              <GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
                 <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>79</Height>
+                <Height>276</Height>
                 <ID>0</ID>
-                <Left>267</Left>
+                <Image>9</Image>
+                <Left>138</Left>
                 <Locked>False</Locked>
-                <Name>label1</Name>
-                <Text xml:space="preserve">New Label</Text>
-                <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>0</TextColor>
-                <Top>44</Top>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>ButtonChoice1</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>ButtonChoice1_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>32</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>52</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>506</Width>
+                <Width>660</Width>
+                <WrapText>False</WrapText>
                 <ZOrder>0</ZOrder>
-              </GUILabel>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>276</Height>
+                <ID>1</ID>
+                <Image>9</Image>
+                <Left>138</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>ButtonChoice2</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>ButtonChoice2_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>32</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>384</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>660</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>1</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>276</Height>
+                <ID>2</ID>
+                <Image>9</Image>
+                <Left>138</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>ButtonChoice3</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>ButtonChoice3_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>32</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>716</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>660</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>2</ZOrder>
+              </GUIButton>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -1007,7 +1073,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>0</ID>
-        <Image>1</Image>
+        <Image>8</Image>
         <Name xml:space="preserve">Walk to</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -1020,7 +1086,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>1</ID>
-        <Image>0</Image>
+        <Image>8</Image>
         <Name xml:space="preserve">Look at</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -1033,7 +1099,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>2</ID>
-        <Image>1</Image>
+        <Image>8</Image>
         <Name>Interact</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -1046,7 +1112,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>3</ID>
-        <Image>0</Image>
+        <Image>8</Image>
         <Name xml:space="preserve">Talk to</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -1059,7 +1125,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>4</ID>
-        <Image>0</Image>
+        <Image>8</Image>
         <Name xml:space="preserve">Use inv</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -1072,7 +1138,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>5</ID>
-        <Image>0</Image>
+        <Image>8</Image>
         <Name xml:space="preserve">Pick up</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -1085,7 +1151,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>6</ID>
-        <Image>0</Image>
+        <Image>8</Image>
         <Name>Pointer</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -1098,7 +1164,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>7</ID>
-        <Image>0</Image>
+        <Image>8</Image>
         <Name>Wait</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -1111,7 +1177,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>8</ID>
-        <Image>0</Image>
+        <Image>8</Image>
         <Name>Usermode1</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -1124,7 +1190,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>9</ID>
-        <Image>0</Image>
+        <Image>8</Image>
         <Name>Usermode2</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -1470,14 +1536,14 @@
               <ImportAlphaChannel>False</ImportAlphaChannel>
             </Source>
           </Sprite>
-          <Sprite Slot="1" Width="20" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+          <Sprite Slot="1" Width="405" Height="540" ColorDepth="32" Resolution="Real" AlphaChannel="True">
             <Source>
-              <FileName>C:\Users\fauzi\Pictures\Music Image\Screenshot 2025-05-12 224714.png</FileName>
-              <OffsetX>279</OffsetX>
-              <OffsetY>242</OffsetY>
-              <ImportHeight>27</ImportHeight>
-              <ImportWidth>20</ImportWidth>
-              <ImportAsTile>True</ImportAsTile>
+              <FileName>D:\school thing\CMF1114 Multimedia Fundamental\0MF project\procrastination\Image\Adha_Talk.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>540</ImportHeight>
+              <ImportWidth>405</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
               <Frame>0</Frame>
               <RemapToGamePalette>True</RemapToGamePalette>
               <RemapToRoomPalette>False</RemapToRoomPalette>
@@ -1582,6 +1648,118 @@
               <ImportAlphaChannel>True</ImportAlphaChannel>
             </Source>
           </Sprite>
+          <Sprite Slot="8" Width="20" Height="21" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>D:\school thing\CMF1114 Multimedia Fundamental\0MF project\procrastination\Image\Cursor.png</FileName>
+              <OffsetX>13</OffsetX>
+              <OffsetY>6</OffsetY>
+              <ImportHeight>21</ImportHeight>
+              <ImportWidth>20</ImportWidth>
+              <ImportAsTile>True</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>True</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <TransparentColorIndex>0</TransparentColorIndex>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="9" Width="660" Height="276" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>D:\school thing\CMF1114 Multimedia Fundamental\0MF project\procrastination\Image\Frame.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>276</ImportHeight>
+              <ImportWidth>660</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>True</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <TransparentColorIndex>0</TransparentColorIndex>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="10" Width="405" Height="540" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>D:\school thing\CMF1114 Multimedia Fundamental\0MF project\procrastination\Image\Aziz_Happy.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>540</ImportHeight>
+              <ImportWidth>405</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>True</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <TransparentColorIndex>0</TransparentColorIndex>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="11" Width="405" Height="540" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>D:\school thing\CMF1114 Multimedia Fundamental\0MF project\procrastination\Image\Aziz_Sad.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>540</ImportHeight>
+              <ImportWidth>405</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>True</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <TransparentColorIndex>0</TransparentColorIndex>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="12" Width="405" Height="540" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>D:\school thing\CMF1114 Multimedia Fundamental\0MF project\procrastination\Image\James_Happy.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>540</ImportHeight>
+              <ImportWidth>405</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>True</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <TransparentColorIndex>0</TransparentColorIndex>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="13" Width="405" Height="540" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>D:\school thing\CMF1114 Multimedia Fundamental\0MF project\procrastination\Image\James_Sad.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>540</ImportHeight>
+              <ImportWidth>405</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>True</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <TransparentColorIndex>0</TransparentColorIndex>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="14" Width="405" Height="540" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>D:\school thing\CMF1114 Multimedia Fundamental\0MF project\procrastination\Image\Aziz_Talk.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>540</ImportHeight>
+              <ImportWidth>405</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>True</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <TransparentColorIndex>0</TransparentColorIndex>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
@@ -1672,7 +1850,7 @@
             <ScriptAndHeader_Script>
               <Script>
                 <FileName>GlobalScript.asc</FileName>
-                <Name />
+                <Name>ButtonChoice3_OnClick</Name>
                 <Description />
                 <Author />
                 <Version />
