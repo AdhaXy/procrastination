@@ -9,3 +9,6 @@ import function HideDialogue(Object* speaker);
 import function ShowNarration(Object* speaker, String text);
 import int LastChoice;
 import function ShowChoices(String text1, String text2, String text3);
+import function ShowAziz(Object* speaker, String text, int speakerSprite);
+import function ShowJames(Object* speaker, String text, int speakerSprite);
+import function ShowAdha(Object* speaker, String text, int speakerSprite);
