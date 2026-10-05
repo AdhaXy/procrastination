@@ -1,1 +1,1 @@
-Game : (room:5) [room5.asc:21] Failed to play video 'Videos/AdhaStudy.mov': Failed to open file: Videos/AdhaStudy.ogv
+Game : (room:10) WARNING: event script function 'hLaptop_MouseMove' not found (Room 10)
